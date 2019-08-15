@@ -1,4 +1,3 @@
-package java.udp.hole.punch;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -146,7 +145,7 @@ public class ClientB {
 
         } else {
             System.out.println("ClientB running with default ports 9000 and 9001");
-            serverIP = InetAddress.getByName("127.0.0.1");
+            serverIP = InetAddress.getByName("industryx.ddns.net");
             serverTcpPort = 9000;
             serverUdpPort = 9001;
 
